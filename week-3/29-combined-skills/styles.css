@@ -1,1 +1,47 @@
 /* Add your own CSS code below */
+#small-heart {
+  color: #c85308;
+}
+
+.main-nav__list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-article {
+  max-width: 50em;
+  text-align: center;
+  margin: auto;
+}
+
+.main-article p {
+  line-height: 140%;
+}
+
+@media (min-width: 992px) {
+  .hero__title {
+    font-size: 4em;
+  }
+}
+
+@media (min-width: 767px) {
+  .site-header {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .views {
+    display: flex;
+    flex-direction: row;
+    /* margin-left: 30px; */
+  }
+
+  .views__title {
+    margin-right: 50px;
+  }
+
+  .view-list__item,
+  .views__all {
+    margin-right: 25px;
+  }
+}
